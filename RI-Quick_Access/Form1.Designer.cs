@@ -152,7 +152,7 @@
             label1.Name = "label1";
             label1.Size = new Size(573, 35);
             label1.TabIndex = 9;
-            label1.Text = "RI - Quick Access is a shortcut directory leading to most accessed points of the iie Rosebank website designed for students. It is not an official program by the IIE Rosebank or Advatech.";
+            label1.Text = resources.GetString("label1.Text");
             // 
             // Form1
             // 

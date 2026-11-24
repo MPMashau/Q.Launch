@@ -25158,6 +25158,9 @@
         AAAAAAAAgAh0AAAAAAAAALgBaJWIttiy5FYAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>RI - Quick Access is an unofficial student-built shortcut directory linking to key IIE Rosebank International portals. It is not affiliated with, endorsed by, or maintained by The IIE, Rosebank International, or ADvTECH.</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
