@@ -1,6 +1,8 @@
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Media;
 using static System.Net.WebRequestMethods;
 namespace People
 {
@@ -9,6 +11,36 @@ namespace People
         public Form1()
         {
             InitializeComponent();
+            DateTime currentTime = DateTime.Now;
+            picDay.Visible = false;
+            picNight.Visible = false;
+            picEvening.Visible = false;
+            picMorning.Visible = false;
+
+            if (currentTime.Hour >= 6 && currentTime.Hour < 12)
+            {
+                picMorning.Visible = true;
+                SoundPlayer morning = new SoundPlayer("goodMorning.wav");
+                morning.Play();
+            }
+            else if (currentTime.Hour >= 12 && currentTime.Hour < 18)
+            {
+                picDay.Visible = true;
+                SoundPlayer day = new SoundPlayer("goodDay.wav");
+                day.Play();
+            }
+            else if (currentTime.Hour >= 18 && currentTime.Hour < 22)
+            {
+                picEvening.Visible = true;
+                SoundPlayer evening = new SoundPlayer("goodEvening.wav");
+                evening.Play();
+            }
+            else
+            {
+                picNight.Visible = true;
+                SoundPlayer night = new SoundPlayer("goodNight.wav");
+                night.Play();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,6 +72,30 @@ namespace People
         {
             string courses = "https://www.rbi.ac.za/qualifications/";
             Process.Start(new ProcessStartInfo(courses) { UseShellExecute = true });
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string rosebankWebsite = "https://www.rbi.ac.za/";
+            Process.Start(new ProcessStartInfo(rosebankWebsite) { UseShellExecute = true });
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string cloudLabs = "https://portal.cloudlabs.ai/";
+            Process.Start(new ProcessStartInfo(cloudLabs) { UseShellExecute = true });
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string github = "https://github.com/";
+            Process.Start(new ProcessStartInfo(github) { UseShellExecute = true });
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string repo = "https://github.com/xcmorgan/RI-Quick-Access";
+            Process.Start(new ProcessStartInfo(repo) { UseShellExecute = true });
         }
     }
 }
