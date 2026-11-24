@@ -8,8 +8,15 @@ A quick-links app that opens the ARC, student portal, and qualifications website
 1. Go to releases page and download the latest zip
 2. Unzip the folder
 3. Open RI Quick Access.exe.
+4. <img width="605" height="266" alt="Screenshot 2026-11-24 125258" src="https://github.com/user-attachments/assets/560a3ad7-aa3a-4014-b14b-045c989403a8" />
+
 <hr>
 <er>Benefits of working on this project</er>
-1. Learn how to shuffle between multiple images at different times
-2. Learn how to use DateTime.Now
-3. using System.Media to add sound (NuGet packages: System.Windows.Extensions).
+<ol>
+  <li>1. Learn how to shuffle between multiple images at different times</li>
+  <li>2. Learn how to use DateTime.Now</li>
+  <li>3. using System.Media to add sound (NuGet packages: System.Windows.Extensions).</li>
+</ol>
+
+
+
