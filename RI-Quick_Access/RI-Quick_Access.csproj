@@ -6,15 +6,14 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>RI.ico</ApplicationIcon>
+    <ApplicationIcon>Images\q.launch.ico</ApplicationIcon>
+    <AssemblyTitle>QLaunch</AssemblyTitle>
+    <AssemblyName>QLaunch</AssemblyName>
+    <RootNamespace>QLaunch</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="RI.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="ReaLTaiizor" Version="3.8.2.1" />
+    <Content Include="Images\q.launch.ico" />
   </ItemGroup>
 
   <ItemGroup>

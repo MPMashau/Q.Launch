@@ -1,4 +1,5 @@
 
+using QLaunch;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -96,6 +97,12 @@ namespace People
         {
             string repo = "https://github.com/xcmorgan/RI-Quick-Access";
             Process.Start(new ProcessStartInfo(repo) { UseShellExecute = true });
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.Show();
         }
     }
 }

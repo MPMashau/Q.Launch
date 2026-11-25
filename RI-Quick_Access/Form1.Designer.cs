@@ -44,7 +44,7 @@
             button8 = new Button();
             label2 = new Label();
             button1 = new Button();
-            button9 = new Button();
+            button10 = new Button();
             ((System.ComponentModel.ISupportInitialize)picMorning).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picDay).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picEvening).BeginInit();
@@ -133,7 +133,7 @@
             // 
             label1.BackColor = SystemColors.Desktop;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(12, 244);
+            label1.Location = new Point(12, 257);
             label1.Name = "label1";
             label1.Size = new Size(573, 35);
             label1.TabIndex = 9;
@@ -198,12 +198,14 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Black;
+            label2.FlatStyle = FlatStyle.Popup;
             label2.ForeColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(543, 292);
+            label2.Location = new Point(550, 292);
             label2.Name = "label2";
             label2.Size = new Size(37, 15);
             label2.TabIndex = 15;
-            label2.Text = "v1.1.0";
+            label2.Text = "v1.3.0";
             // 
             // button1
             // 
@@ -218,15 +220,17 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
-            // button9
+            // button10
             // 
-            button9.Location = new Point(516, 200);
-            button9.Name = "button9";
-            button9.Size = new Size(75, 23);
-            button9.TabIndex = 19;
-            button9.Text = "Repo";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click;
+            button10.BackColor = Color.LightGreen;
+            button10.FlatStyle = FlatStyle.Flat;
+            button10.Location = new Point(517, 200);
+            button10.Name = "button10";
+            button10.Size = new Size(68, 23);
+            button10.TabIndex = 20;
+            button10.Text = "More...";
+            button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // Form1
             // 
@@ -236,7 +240,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(599, 312);
-            Controls.Add(button9);
+            Controls.Add(button10);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(button8);
@@ -253,6 +257,7 @@
             Controls.Add(picMorning);
             Controls.Add(button2);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Form1";
@@ -281,6 +286,6 @@
         private Button button8;
         private Label label2;
         private Button button1;
-        private Button button9;
+        private Button button10;
     }
 }
