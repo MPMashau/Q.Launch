@@ -1,8 +1,9 @@
-<strong>RI - Quick Access</strong>
+<strong>RI - Quick Launch</strong>
 <hr>
 A quick-links app that opens the ARC, student portal, and qualifications websites in one click, and greets you with audio that changes by time of day.
 
-<img width="599" height="341" alt="Screenshot 2026-11-24 124545" src="https://github.com/user-attachments/assets/fea57dbf-ede4-41bd-9ff2-f475731f0409" />
+<img width="596" height="338" alt="Screenshot 2026-11-25 173155" src="https://github.com/user-attachments/assets/69953ed6-0dfe-4dde-93e4-3c47246fd290" />
+
 
 <strong>How to run</strong>
 1. Go to releases page and download the latest zip
